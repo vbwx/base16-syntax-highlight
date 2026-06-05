@@ -1,0 +1,4 @@
+default:
+  extension: .theme
+  output: Themes
+  no-prefix: true
