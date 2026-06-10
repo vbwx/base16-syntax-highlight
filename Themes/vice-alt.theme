@@ -3,7 +3,7 @@
 Scheme:   Base16 "Vice Alt"
 Author:   Thomas Leon Highbaugh
 License:  MIT License
-Source:   <URL>
+Source:   https://github.com/Thomashighbaugh/base16-vice-scheme
 ================================================================================
 Converted from YAML by Tristano Ajmone:
     <tajmone@gmail.com>
@@ -17,22 +17,22 @@ Description = "Base16 Vice Alt"
 Categories = {"dark", "base16", "lsp"}
 
 --------------------------------------------------------------------------------
-base00 = "#303030" --> Default Background
-base01 = "#444444" --> Lighter Background (Used for status bars)
-base02 = "#878787" --> Selection Background
-base03 = "#875faf" --> Comments, Invisibles, Line Highlighting
-base04 = "#afafd7" --> Dark Foreground (Used for status bars)
-base05 = "#d7afff" --> Default Foreground, Caret, Delimiters, Operators
-base06 = "#ffffff" --> Light Foreground (Not often used)
-base07 = "#afffd7" --> Light Background (Not often used)
-base08 = "#ff005f" --> Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
-base09 = "#ff00ff" --> Integers, Boolean, Constants, XML Attributes, Markup Link Url
-base0A = "#ffffaf" --> Classes, Markup Bold, Search Text Background
-base0B = "#87ffff" --> Strings, Inherited Class, Markup Code, Diff Inserted
-base0C = "#00ffaf" --> Support, Regular Expressions, Escape Characters, Markup Quotes
-base0D = "#afffff" --> Functions, Methods, Attribute IDs, Headings
-base0E = "#d7afff" --> Keywords, Storage, Selector, Markup Italic, Diff Changed
-base0F = "#ff87d7" --> Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
+base00 = "#303030"
+base01 = "#444444"
+base02 = "#878787"
+base03 = "#875faf"
+base04 = "#afafd7"
+base05 = "#d7afff"
+base06 = "#ffffff"
+base07 = "#afffd7"
+base08 = "#ff005f"
+base09 = "#ff00ff"
+base0A = "#ffffaf"
+base0B = "#87ffff"
+base0C = "#00ffaf"
+base0D = "#afffff"
+base0E = "#d7afff"
+base0F = "#ff87d7"
 --------------------------------------------------------------------------------
 Canvas         = { Colour = base00, Italic = false, Bold = false }
 
@@ -49,7 +49,7 @@ StringPreProc  = Escape
 
 Interpolation  = { Colour = base09, Italic = false, Bold = false }
 
-LineComment    = { Colour = base03, Italic = true,  Bold = false } --> Italic
+LineComment    = { Colour = base03, Italic = true,  Bold = false }
 BlockComment   = LineComment
 
 LineNum        = { Colour = base04, Italic = false, Bold = false }
@@ -57,12 +57,12 @@ LineNum        = { Colour = base04, Italic = false, Bold = false }
 PreProcessor   = { Colour = base0F, Italic = false, Bold = false }
 
 Keywords = {
-  { Colour = base0E, Italic = false, Bold = true  }, --> kwd 1
-  { Colour = base0D, Italic = false, Bold = true  }, --> kwd 2
-  { Colour = base08, Italic = false, Bold = true  }, --> kwd 3
-  { Colour = base0A, Italic = false, Bold = true  }, --> kwd 4
-  { Colour = base0F, Italic = false, Bold = true  }, --> kwd 5
-  { Colour = base09, Italic = false, Bold = true  }, --> kwd 6
+  { Colour = base0E, Italic = false, Bold = true  },
+  { Colour = base0D, Italic = false, Bold = true  },
+  { Colour = base08, Italic = false, Bold = true  },
+  { Colour = base0A, Italic = false, Bold = true  },
+  { Colour = base0F, Italic = false, Bold = true  },
+  { Colour = base09, Italic = false, Bold = true  },
 }
 
 -- new LSP based elements:
